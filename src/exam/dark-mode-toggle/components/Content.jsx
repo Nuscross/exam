@@ -1,6 +1,6 @@
 import { useGlobalContext } from "../context";
-import lightImage from "../../../assets/light-image.svg";
-import darkImage from "../../../assets/dark-image.svg";
+import lightImage from "../../../assets/images/light-image.svg";
+import darkImage from "../../../assets/images/dark-image.svg";
 
 const Content = () => {
 
