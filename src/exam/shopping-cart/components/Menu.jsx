@@ -1,7 +1,7 @@
 import { useRef } from "react";
 import { useDispatch } from "react-redux";
 import { useGlobalContext } from "../management/context";
-import { addMenu } from "../management/cartSlice";
+import { addMenu } from "../management/slice/cartSlice";
 import usePagination from "../management/usePagination";
 
 const Menu = () => {

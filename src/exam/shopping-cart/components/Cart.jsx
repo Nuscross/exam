@@ -1,8 +1,8 @@
 import { useSelector, useDispatch } from "react-redux";
 import { Link } from "react-router-dom";
 import { useGlobalContext } from "../management/context";
-import { removeMenu, increase, decrease, clearCart } from "../management/cartSlice";
-import { saveOrder } from "../management/orderSlice";
+import { removeMenu, increase, decrease, clearCart } from "../management/slice/cartSlice";
+import { saveOrder } from "../management/slice/orderSlice";
 import { FaWindowClose, FaPlusSquare, FaMinusSquare } from "react-icons/fa";
 
 const Cart = () => {

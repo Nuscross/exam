@@ -1,6 +1,6 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useGlobalContext } from "../management/context";
-import { clearOrder } from "../management/orderSlice";
+import { clearOrder } from "../management/slice/orderSlice";
 import { FaClock } from "react-icons/fa6";
 
 const OrderHistory = () => {
