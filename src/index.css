@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .validate-error {
+    @apply mt-2 text-sm text-red-500
+  }
+}
+
+/* dark-mode-toggle */
+.toggle-icon {
+  color: #0284c7;
+  font-size: 24px;
+}
+body.dark-theme {
+  color: #ffffff;
+  background-color: #333333;
+}
+body.dark-theme .toggle-icon,
+body.dark-theme h2 {
+  color: #ffb100;
+}
