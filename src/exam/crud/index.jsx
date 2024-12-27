@@ -1,8 +1,8 @@
+import Route from "./components/Route";
+
 const Crud = () => {
   return (
-    <div>
-      CRUD
-    </div>
+    <Route />
   )
 }
 

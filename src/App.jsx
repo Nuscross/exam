@@ -11,7 +11,7 @@ function App() {
         8. สร้างระบบการจัดการตะกร้าสินค้า 
         10. ใช้ Redux Toolkit ในการจัดการ State
       */}
-      <ShoppingCart />
+      {/* <ShoppingCart /> */}
 
       {/* 3. สร้างระบบจัดการสินค้า (CRUD) */}
       {/* <Crud /> */}

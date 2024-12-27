@@ -117,7 +117,7 @@ const FormValidation = () => {
               <div className="validate-error">{ errors.confirmPassword.message }</div> 
             }
           </div>
-          <button type="submit" className="p-2 text-white bg-blue-700 rounded hover:bg-blue-500">Submit Form</button>
+          <button type="submit" className="mt-3 p-2 text-white bg-blue-700 rounded hover:bg-blue-500">Submit Form</button>
         </form>
       </div>
       { formValue &&
